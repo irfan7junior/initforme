@@ -12,7 +12,7 @@ export class Program {
   public outputFolder: string
 
   constructor() {
-    this.templatesFolder = path.resolve(process.cwd(), 'data')
+    this.templatesFolder = path.resolve(__dirname, '../data')
     this.program = createCommand()
     this.init()
   }
