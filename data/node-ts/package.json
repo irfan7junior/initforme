@@ -1,0 +1,30 @@
+{
+  "name": "@irfan7junior/project-name",
+  "version": "1.0.0",
+  "description": "project description",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn ./src/index.ts"
+  },
+  "author": "irfan7junior",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.2"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "bugs": {},
+  "homepage": ""
+}

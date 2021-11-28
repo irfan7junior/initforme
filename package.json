@@ -7,11 +7,13 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "tsc",
-    "dev": "ts-node-dev --respawn ./src/index.ts"
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn ./src/index.ts --output ./ignore --template node-ts"
   },
   "author": "irfan7junior",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^16.11.10",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^8.3.0",
@@ -19,11 +21,25 @@
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.2"
   },
-  "keywords": [],
+  "keywords": [
+    "initialize",
+    "python",
+    "typescript",
+    "javascript",
+    "boilerplate"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/irfan7junior/initforme.git"
   },
-  "bugs": {},
-  "homepage": ""
+  "bugs": {
+    "email": "mdirfan548@gmail.com",
+    "url": "https://github.com/irfan7junior/initforme/issues"
+  },
+  "homepage": "https://github.com/irfan7junior/initforme",
+  "dependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "commander": "^8.3.0",
+    "fs-extra": "^10.0.0"
+  }
 }
