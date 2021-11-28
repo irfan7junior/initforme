@@ -1,6 +1,6 @@
 {
   "name": "@irfan7junior/initforme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "initialize the projects for me in vscode",
   "main": "dist/index.js",
   "bin": "dist/index.js",

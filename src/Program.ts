@@ -13,6 +13,7 @@ export class Program {
 
   constructor() {
     this.templatesFolder = path.resolve(__dirname, '../data')
+    console.log(this.templatesFolder)
     this.program = createCommand()
     this.init()
   }
@@ -25,7 +26,7 @@ export class Program {
 
   private init() {
     this.program
-      .version('0.0.1', '-v, --version', 'output the current version')
+      .version('0.0.2', '-v, --version', 'output the current version')
       .option('-o, --output <location>', 'specify output folder name', './')
       .option('-t, --template <name>', 'specify template name', undefined)
       .parse(process.argv)
