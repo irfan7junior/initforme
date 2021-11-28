@@ -1,0 +1,19 @@
+{
+  "[python]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.wordBasedSuggestions": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.formatting.autopep8Args": [
+    "--indent-size=4",
+    "--ignore=E226,E302,E41"
+  ],
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+}

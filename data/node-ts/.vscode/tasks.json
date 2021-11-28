@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": [],
+      "label": "npm: dev",
+      "detail": "ts-node-dev --respawn ./src/index.ts",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+    },
+    {
+      "type": "npm",
+      "script": "build",
+      "problemMatcher": [],
+      "label": "npm: build",
+      "detail": "tsc",
+    },
+    {
+      "type": "npm",
+      "script": "run",
+      "problemMatcher": [],
+      "label": "npm: run",
+      "detail": "node ./dist/index.js",
+      "group": "none"
+    }
+  ]
+}
