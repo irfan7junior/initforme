@@ -25,7 +25,7 @@ export class Program {
 
   private init() {
     this.program
-      .version('0.0.3', '-v, --version', 'output the current version')
+      .version('0.0.4', '-v, --version', 'output the current version')
       .option('-o, --output <location>', 'specify output folder name', './')
       .option('-t, --template <name>', 'specify template name', undefined)
       .parse(process.argv)
