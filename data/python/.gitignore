@@ -1,0 +1,3 @@
+virtual-fastapi
+__pycache__
+.env
